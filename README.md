@@ -1,10 +1,11 @@
-# Interactive Katacoda Scenarios
+# Sedna Katacoda-Scenarios
 
-[![](http://shields.katacoda.com/katacoda/sedna/count.svg)](https://www.katacoda.com/sedna "Get your profile on Katacoda.com")
+We have created a tutorial in the interactive learning platform Katacoda for Sedna deployment.
+This can give a hands-on experience of Sedna deployment. The tutorial is created on Sedna release v0.3.1.
 
-Visit https://www.katacoda.com/sedna to view the profile and interactive scenarios
+![alt text](./deployment/assets/sedna-deploy.png) 
 
-### Writing Scenarios
-Visit https://www.katacoda.com/docs to learn more about creating Katacoda scenarios
 
-For examples, visit https://github.com/katacoda/scenario-example
+This is available on <https://katacoda.com/sedna/scenarios/deployment>
+
+Please try it out !!!
