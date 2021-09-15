@@ -10,7 +10,7 @@ END_KILLED_MESSAGE='Interupted. This scenario may still be initializing.'
 SPINNER_COLOR_NUM=2                # Color to use, unless COLOR_CYCLE=1
 SPINNER_COLOR_CYCLE=0              # 1 to rotate colors between each animation
 INTERVAL=.25
-WAITTING_SEDNA_DEPLOYMENT=20
+WAITTING_SEDNA_DEPLOYMENT=30
 SPINNER_NORMAL=$(tput sgr0)        # Reset encoding
 symbols=("▐⠂       ▌" "▐⠈       ▌" "▐ ⠂      ▌" "▐ ⠠      ▌" "▐  ⡀     ▌" "▐  ⠠     ▌" "▐   ⠂    ▌" "▐   ⠈    ▌" "▐    ⠂   ▌" "▐    ⠠   ▌" "▐     ⡀  ▌" "▐     ⠠  ▌" "▐      ⠂ ▌" "▐      ⠈ ▌" "▐       ⠂▌" "▐       ⠠▌" "▐       ⡀▌" "▐      ⠠ ▌" "▐      ⠂ ▌" "▐     ⠈  ▌" "▐     ⠂  ▌" "▐    ⠠   ▌" "▐    ⡀   ▌" "▐   ⠠    ▌" "▐   ⠂    ▌" "▐  ⠈     ▌" "▐  ⠂     ▌" "▐ ⠠      ▌" "▐ ⡀      ▌" "▐⠠       ▌")
 
