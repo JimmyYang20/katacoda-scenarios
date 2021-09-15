@@ -8,7 +8,6 @@
   "details": {
     "steps": [
       {
-        "title": "Joint Inference Example",
         "text": "ji-example.md",
         "courseData": "init-background.sh",
         "code": "clear.sh"
