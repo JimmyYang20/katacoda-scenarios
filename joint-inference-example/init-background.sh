@@ -33,11 +33,10 @@ helm install dash kubernetes-dashboard/kubernetes-dashboard \
 # how Istio and other LoadBalancer based services can be deployed.
 kubectl delete -f /opt/katacoda-cloud-provider.yaml &
 
-echo "done" >> /opt/.backgroundfinished
-
 # To remove the taint added of master node
 kubectl taint node $HOSTNAME node-role.kubernetes.io/master-
 
 # Install Sedna control components in one command, you can run:
 curl https://raw.githubusercontent.com/kubeedge/sedna/main/scripts/installation/install.sh | SEDNA_GM_NODE=$HOSTNAME SEDNA_ACTION=create bash -
 
+echo "done" >> /opt/.backgroundfinished
