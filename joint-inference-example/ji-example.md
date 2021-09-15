@@ -18,7 +18,7 @@ For more details, see [the installation doc](https://github.com/kubeedge/sedna/b
 
 ### Prepare Data and Model
 
-step1: download [little model](https://kubeedge.obs.cn-north-1.myhuaweicloud.com/examples/helmet-detection-inference/little-model.tar.gz) to your edge node.
+Step1: download [little model](https://kubeedge.obs.cn-north-1.myhuaweicloud.com/examples/helmet-detection-inference/little-model.tar.gz) to your edge node.
 
 ```
 mkdir -p /data/little-model
@@ -27,7 +27,7 @@ wget https://kubeedge.obs.cn-north-1.myhuaweicloud.com/examples/helmet-detection
 tar -zxvf little-model.tar.gz
 ```{{execute}}
 
-step2: download [big model](https://kubeedge.obs.cn-north-1.myhuaweicloud.com/examples/helmet-detection-inference/big-model.tar.gz) to your cloud node.
+Step2: download [big model](https://kubeedge.obs.cn-north-1.myhuaweicloud.com/examples/helmet-detection-inference/big-model.tar.gz) to your cloud node.
 
 ```
 mkdir -p /data/big-model

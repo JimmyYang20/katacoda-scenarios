@@ -38,5 +38,6 @@ kubectl taint node $HOSTNAME node-role.kubernetes.io/master-
 
 # Install Sedna control components in one command, you can run:
 curl https://raw.githubusercontent.com/kubeedge/sedna/main/scripts/installation/install.sh | SEDNA_GM_NODE=$HOSTNAME SEDNA_ACTION=create bash -
+sleep 10
 
 echo "done" >> /opt/.backgroundfinished
